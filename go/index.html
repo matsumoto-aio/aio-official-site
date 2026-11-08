@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>AIOスコア無料診断｜口コミ365</title>
+<link rel="stylesheet" href="/style.css">
+<script>
+  // 営業メール・フォームのリンク先。URLの ? 以降（shop・src・store・area・kw）をそのまま引き継いで診断ページへ
+  var LP = 'https://script.google.com/macros/s/AKfycbz9imkPLh9AKIJp5AxbG4mehbhqa0a1TUaaW9whJdH3fhtdhYPEq0M-lzGtyOvBlt2fFA/exec';
+  var q = location.search.replace(/([?&])sid=/g, '$1shop='); // 念のため：sid は script.google.com の予約語なので shop に直す
+  location.replace(LP + q);
+</script>
+</head>
+<body>
+<main>
+<p>診断ページへ移動しています…</p>
+<p><a id="go" href="#">自動で切り替わらない場合はこちら</a></p>
+<script>document.getElementById('go').href = LP + q;</script>
+</main>
+</body>
+</html>
