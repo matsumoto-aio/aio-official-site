@@ -1,0 +1,18 @@
+:root{--ink:#2B2A28;--sub:#6F6A62;--cream:#FFF8E7;--yellow:#FFD93D;--coral:#FF5C8A;--sky:#4DA8FF}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:"Hiragino Maru Gothic ProN","Hiragino Sans","Noto Sans JP",Meiryo,sans-serif;line-height:1.9;font-size:15px}
+main{max-width:640px;margin:0 auto;padding:28px 16px 60px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:28px}
+.logo{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:#fff;border-radius:999px;padding:6px 16px;font-weight:900;text-decoration:none}
+.logo span{color:var(--yellow)}
+nav a{color:var(--sub);text-decoration:none;font-size:13px;margin-left:12px}
+h1{font-size:24px;line-height:1.45;margin:0 0 12px}
+h2{font-size:18px;margin:32px 0 8px;padding-left:10px;border-left:5px solid var(--yellow)}
+p{margin:0 0 14px}
+.card{background:#fff;border:3px solid var(--ink);border-radius:18px;padding:18px 20px;box-shadow:5px 5px 0 var(--ink);margin:18px 0}
+.btn{display:inline-block;background:var(--coral);color:#fff;font-weight:900;border:3px solid var(--ink);border-radius:999px;padding:12px 22px;text-decoration:none;box-shadow:4px 4px 0 var(--ink)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;vertical-align:top;padding:8px 6px;border-bottom:1px solid #E7E0CF}
+th{width:9em;color:var(--sub);font-weight:700}
+footer{margin-top:40px;font-size:12px;color:var(--sub)}
+small{color:var(--sub)}
